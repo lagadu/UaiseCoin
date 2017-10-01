@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UaiseCoin.Model", "Model\UaiseCoin.Model.csproj", "{5BF1CC91-76E1-4C27-8C0D-9B17BCD9E81D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UaiseCoin.BlockChain", "BlockChain\UaiseCoin.BlockChain.csproj", "{6CF6CBA0-7B08-49E1-9494-157C9489F8FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UaiseCoin.Utils", "UaiseCoin.Utils\UaiseCoin.Utils.csproj", "{6CCE46C0-3963-475D-B4C7-A01E3DCFC69E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BF1CC91-76E1-4C27-8C0D-9B17BCD9E81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF1CC91-76E1-4C27-8C0D-9B17BCD9E81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF1CC91-76E1-4C27-8C0D-9B17BCD9E81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF1CC91-76E1-4C27-8C0D-9B17BCD9E81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF6CBA0-7B08-49E1-9494-157C9489F8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF6CBA0-7B08-49E1-9494-157C9489F8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF6CBA0-7B08-49E1-9494-157C9489F8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF6CBA0-7B08-49E1-9494-157C9489F8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CCE46C0-3963-475D-B4C7-A01E3DCFC69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCE46C0-3963-475D-B4C7-A01E3DCFC69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCE46C0-3963-475D-B4C7-A01E3DCFC69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCE46C0-3963-475D-B4C7-A01E3DCFC69E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5279626-5AA5-4A6C-AFE3-34D5730950D0}
+	EndGlobalSection
+EndGlobal
