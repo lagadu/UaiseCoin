@@ -21,7 +21,7 @@ namespace UaiseCoin.BlockChain
             var guess = $"{lastProof}{proof}";
             var sha512 = new System.Security.Cryptography.HMACSHA512();
             var encoding = new UTF8Encoding();
-            return Crypto.ToHex(sha512.ComputeHash(encoding.GetBytes(guess)), true).Substring(0, 4) == "000";
+            return Crypto.ToHex(sha512.ComputeHash(encoding.GetBytes(guess)), true).Substring(0, 3) == "000";
         }
 
         //private static IEnumerable<bool> IterateUntilFalse(Func<bool> condition)
